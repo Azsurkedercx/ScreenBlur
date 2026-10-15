@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# 编译产物
+*.exe
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# 运行时生成
+ScreenBlur.ini
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.tmp
+*~
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# 发布归档
+releases/
