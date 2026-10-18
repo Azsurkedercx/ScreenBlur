@@ -1,4 +1,4 @@
-﻿@echo off
+@echo off
 setlocal
 
 :: ============================================================
@@ -46,7 +46,7 @@ echo [2/2] Compiling C++ ...
 g++ -O2 -municode -mwindows -static -s ^
     -finput-charset=UTF-8 -fexec-charset=UTF-8 ^
     -o ScreenBlur.exe ScreenBlur.cpp ScreenBlur_res.o ^
-    -lshell32 -luser32 -lgdi32 -lmsimg32 -lcomdlg32
+    -lshell32 -luser32 -lgdi32 -lmsimg32
 
 if errorlevel 1 (
     echo.
